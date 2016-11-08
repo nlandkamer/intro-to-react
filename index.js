@@ -2,7 +2,7 @@
 
 const
 	fs = require("fs"),
-	server = require("./dist/server.js");
+	server = require("./src/server.js");
 
 fs.readFile("./config.json", function(err, data) {
 
