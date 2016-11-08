@@ -1,7 +1,7 @@
 {
 	"webServer": {
 		"port": 8080,
-		"folder": "dist/www"
+		"folder": "src/www"
 	},
 	"logger": {
 		"transports": {
@@ -12,7 +12,7 @@
 			},
 			"file": {
 				"level": "debug",
-				"fileName": "dist/logs/server.log",
+				"fileName": "src/logs/server.log",
 				"timeStamp" : true
 			}
 		}
